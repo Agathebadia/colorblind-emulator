@@ -1,0 +1,41 @@
+
+/* Defining class names for each visual colorblidness type */
+.protanopia {
+  -webkit-filter: url('filters.svg#protanopia');
+  filter: url('filters.svg#protanopia');
+}
+
+.protanomaly {
+  -webkit-filter: url('filters.svg#protanomaly');
+  filter: url('filters.svg#protanomaly');
+}
+
+.deuteranopia {
+  -webkit-filter: url('filters.svg#deuteranopia');
+  filter: url('filters.svg#deuteranopia');
+}
+
+.deuteranomaly {
+  -webkit-filter: url('filters.svg#deuteranomaly');
+  filter: url('filters.svg#deuteranomaly');
+}
+
+.tritanopia {
+  -webkit-filter: url('filters.svg#tritanopia');
+  filter: url('filters.svg#tritanopia');
+}
+
+.tritanomaly {
+  -webkit-filter: url('filters.svg#tritanomaly');
+  filter: url('filters.svg#tritanomaly');
+}
+
+.achromatopsia {
+  -webkit-filter: url('filters.svg#achromatopsia');
+  filter: url('filters.svg#achromatopsia');
+}
+
+.achromatomaly {
+  -webkit-filter: url('filters.svg#achromatomaly');
+  filter: url('filters.svg#achromatomaly');
+}
