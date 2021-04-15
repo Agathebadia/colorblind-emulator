@@ -39,3 +39,8 @@
   -webkit-filter: url('filters.svg#achromatomaly');
   filter: url('filters.svg#achromatomaly');
 }
+
+.menu-items {
+  color: red;
+  text-transform: capitalize;
+}
