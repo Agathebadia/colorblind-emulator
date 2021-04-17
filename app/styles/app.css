@@ -41,6 +41,16 @@
 }
 
 .menu-items {
+  display: flex;
+  justify-content: center;
   color: red;
   text-transform: capitalize;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  padding: 1em;
+  margin: 0.5em;
+  background-image: url('images/test.jpg');
+  text-decoration: dashed;
 }
