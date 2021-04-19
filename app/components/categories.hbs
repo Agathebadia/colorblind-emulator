@@ -1,0 +1,10 @@
+<div class="menu-items">
+  {{#each menuItems as |item|}}
+  <LinkTo @route="category" @model={{item.name}}>
+    <div class="{{item.name}} menu-item">{{item.name}}
+    </div>
+  </LinkTo>
+  <Category @category={{category}} />
+  {{/each}}
+</div>
+
