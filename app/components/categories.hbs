@@ -1,5 +1,5 @@
 <div class="menu-items">
-  {{#each @categories as |item|}}
+  {{#each menuItems as |item|}}
     <LinkTo @route="categories.category" @model={{item.name}}>
       <div class="{{item.name}} menu-item">{{item.name}}
       </div>
