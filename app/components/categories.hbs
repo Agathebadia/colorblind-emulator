@@ -1,8 +1,8 @@
 <div class="menu-items">
-  {{#each menuItems as |item|}}
-  <LinkTo @route="categories.category" @model={{item.name}}>
-    <div class="{{item.name}} menu-item">{{item.name}}
-    </div>
-  </LinkTo>
+  {{#each @categories as |item|}}
+    <LinkTo @route="categories.category" @model={{item.name}}>
+      <div class="{{item.name}} menu-item">{{item.name}}
+      </div>
+    </LinkTo>
   {{/each}}
 </div>
