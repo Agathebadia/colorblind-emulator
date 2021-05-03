@@ -59,6 +59,6 @@ export default class CategoriesRoute extends Route {
       description: 'Insert description',
     });
 
-    return [noColorBlindness, protanopia, protanomaly, deuteranopia, deuteranomaly, tritanopia, , tritanomaly, achromatopsia, achromatomaly];
+    return [noColorBlindness, protanopia, protanomaly, deuteranopia, deuteranomaly, tritanopia, tritanomaly, achromatopsia, achromatomaly];
   }
 }

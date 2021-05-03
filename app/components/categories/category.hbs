@@ -1,12 +1,6 @@
-A category page!
-
 <div class="category">
-  {{#each-in @categories as |key value|}}
-    <div class="{{category.name}}" style="color:red">
-      <p>{{category}}</p>
-      <p>{{key}}: {{value}}</p>
-    </div>
-  {{/each-in}}
+  <div class="{{@categories.name}}" style="color:red">
+    <p>{{@categories.name}}</p>
+    <p>{{@categories.content.description}}</p>
+  </div>
 </div>
-{{log this.category}}
-{{log this.categories}}

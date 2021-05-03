@@ -4,12 +4,10 @@ This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
 ## Ongoing
-* Create component for category of colorblindness - Model, store, Ember Array & #each to display each option
+* Create content to describe each colorblindness & styling
 
 ## TO DO
 * Refactor main page with component for each colorblidness, see the forum
-* Conditional statements displaying one colorblind option on check
-* Allow one page to display all options at once
 * Masonry on the above page?
 * Use Ember Data with public API as part of the masonry?
 * Accessibility check and refactor
