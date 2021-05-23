@@ -12,7 +12,6 @@ export default class CategoriesComponent extends Component {
   @tracked categories = [];
 
   menuItems = A([
-    { name: 'No colorblindness'},
     { name: 'protanopia'},
     { name: 'protanomaly'},
     { name: 'deuteranopia'},

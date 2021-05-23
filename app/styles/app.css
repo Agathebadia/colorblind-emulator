@@ -43,14 +43,58 @@
 .menu-items {
   display: flex;
   justify-content: center;
-  color: red;
   text-transform: capitalize;
   flex-wrap: wrap;
+}
+
+.container-img-left {
+  display: flex;
+  align-items: center;
+}
+
+.category-container, header, .menu-items {
+  width: 85%;
+  margin: auto;
+}
+
+.category-container {
+  margin-top: 3em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+
+.container p {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+img {
+  max-width: 25em;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic ;
 }
 
 .menu-item {
   padding: 1em;
   margin: 0.5em;
-  background-image: url('images/test.jpg');
-  text-decoration: dashed;
+  background-color: #cc8686;
+  color: black;
+  border-radius: 3px;
 }
+
+a {
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background-color: #c94545;
+}
+
