@@ -114,11 +114,43 @@ figcaption {
   border-radius: 3px;
 }
 
-a {
+.menu-items a {
   text-decoration: none;
+}
+
+.media-link em {
+   text-shadow: 0.05em 0 black, -0.05em 0 0 black,
+    0 0.05em 0 black, 0 -0.05em 0 black,
+    0.1em 0 0 black, -0.1em 0 0 black,
+    0 0.1em 0 black, 0 -0.1em 0 black;
+    color: black;
 }
 
 .menu-item:hover {
   background-color: #c94545;
 }
 
+.span {
+  padding: 5px 8px;
+  border-radius: 3px;
+}
+
+.span-error {
+  background-color: red;
+}
+
+.span-success {
+  background-color: lightgreen;
+}
+
+.span-warning {
+  background-color: orange;
+}
+
+.span-emphasize {
+  background-color: lightskyblue;
+}
+
+.span-deemphasize {
+  background-color: lightgrey;
+}
