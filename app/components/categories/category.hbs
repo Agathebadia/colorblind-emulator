@@ -1,6 +1,11 @@
 <div class="category-container">
+  <h2>What is <span class="capitalize">{{@categories.name}}</span>?</h2>
   <div class="{{@categories.name}} container" style="color:red">
-    <p>{{@categories.content.description}}</p>
+    <div>
+    <blockquote>{{@categories.content.description}}</blockquote>
+    <blockquote>{{@categories.content.red-vision}}</blockquote>
+    <figcaption>{{@categories.content.author}}</figcaption>
+    </div>
     <div class="img-figcaption">
       <img class="" src="../assets/images/red.jpg" alt="{{@categories.content.red-description}}">
       <figcaption>{{@categories.content.redfigcaption}}</figcaption>
@@ -12,11 +17,11 @@
       <img alt="{{@categories.content.green-description}}" src="../assets/images/green.jpg">
       <figcaption >{{@categories.content.greenfigcaption}}</figcaption>
   </div>
-    <p>{{@categories.content.description}}</p>
+    <blockquote>{{@categories.content.green-vision}}</blockquote>
   </div>
 
   <div class="{{@categories.name}} container" style="color: yellow;">
-    <p>{{@categories.content.description}}</p>
+    <blockquote>{{@categories.content.yellow-vision}}</blockquote>
     <div class="img-figcaption">
       <img class="" src="../assets/images/yellow.jpg" alt="{{@categories.content.yellow-description}}">
       <figcaption>{{@categories.content.yellowfigcaption}}</figcaption>
@@ -28,11 +33,11 @@
       <img class="" src="../assets/images/purple.jpg" alt="{{@categories.content.purple-description}}">
       <figcaption>{{@categories.content.purplefigcaption}}</figcaption>
     </div>
-    <p>{{@categories.content.description}}</p>
+    <blockquote>{{@categories.content.purple-vision}}</blockquote>
   </div>
 
   <div class="{{@categories.name}} container" style="color: blue;">
-    <p>{{@categories.content.description}}</p>
+    <p>{{@categories.content.blue-vision}}</p>
     <div class="img-figcaption">
       <img class="" src="../assets/images/blue.jpg" alt="{{@categories.content.blue-description}}">
       <figcaption>{{@categories.content.bluefigcaption}}</figcaption>
@@ -64,7 +69,7 @@
   </div>
 
   <h2>Colors & Design</h2>
-  <p><span class="visually-hidden">Subtitle:</span> Emulating real life examples with colorblindness</p>
+  <p>Emulating real life examples with colorblindness</p>
 
   <div class="container">
     <div class="margin-top {{@categories.name}}">
@@ -96,8 +101,8 @@
     </div>
     <div align="right" >
       <img src="../assets/images/shirt-color.jpg" alt="Model wearing a white shirt with a black design of a light bulb">
-      <div class="sub-item-right">Unisex t-shirt Lightbulb - 35 EUR</div>
-      <div class="sub-item-right">Choose a color:</div>
+      <p>Unisex t-shirt Lightbulb - 35 EUR</p>
+      <p class="sub-item-right">Choose a color:</p>
       <span class="red-dot"></span>
       <span class="pink-dot"></span>
       <span class="yellow-dot"></span> <span class="blue-dot"></span>
@@ -106,7 +111,7 @@
   </div>
 
   <div class="container {{@categories.name}}">
-    <img src="../assets/images/pie-chart.png" alt="Pie chard divided in 6 portions, each portion has a specific color, but nothing written inside, therefore very difficult to associate the caption and the pie colors">
+    <img src="../assets/images/pie-chart.png" alt="Pie chart with the original question: How do you spend your leisure time? The answers in the chart are divided in 5 categories: TV, Books, Games, Other and Music. Each pie as a different color, that are only easy to distinguish without colorblindess. The colors are dark blue, lighter blue, orange and a lighter tone, the last one is grey.">
     <p>TEXT</p>
   </div>
 

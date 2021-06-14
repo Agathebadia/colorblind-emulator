@@ -92,7 +92,7 @@ header {
 }
 
 
-.container p, .container-right p {
+.container p, .container-right p, .container quote {
   margin-left: 1em;
   margin-right: 1em;
 }
