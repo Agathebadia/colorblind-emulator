@@ -64,24 +64,51 @@
   </div>
 
   <h2>Colors & Design</h2>
-  <span class="{{@categories.name}} span span-error">Error</span>
-  <span class="{{@categories.name}} span span-warning">Warning</span>
-  <span class="{{@categories.name}} span span-success">You're message was successfully sent!</span>
-  <span class="{{@categories.name}} span span-emphasize">You're about to be redirected to another page</span>
-  <span class="{{@categories.name}} span span-deemphasize">This article is out of stock</span>
+  <p><span class="visually-hidden">Subtitle:</span> Emulating real life examples with colorblindness</p>
 
-  {{!-- Add a component for the resources --}}
-  <h2>Resources</h2>
-  <ul>
-    <li><a href="https://uxdesign.cc/color-blindness-in-user-interfaces-66c27331b858
-" target="_blank" rel="noopener"><em>Colorblindness in User Interfaces</em></a> by Ivan Tuchkov</li>
-    <li><a class="media-link" href="" target="_blank" rel="noopener"><em></em></a></li>
-    <li><a class="media-link"class="media-link"  href="" target="_blank" rel="noopener"><em></em></a></li>
-    <li><a class="media-link" href="" target="_blank" rel="noopener"><em></em></a></li>
-    <li><a class="media-link" href="" target="_blank" rel="noopener"><em></em></a></li>
-    <li><a class="media-link" href="" target="_blank" rel="noopener"><em></em></a></li>
-    <li><a class="media-link" href="" target="_blank" rel="noopener"><em></em></a></li>
-    <li><a class="media-link" href="" target="_blank" rel="noopener"><em></em></a></li>
-    <li><a class="media-link" href="" target="_blank" rel="noopener"><em></em></a></li>
-  </ul>
+  <div class="container">
+    <div class="margin-top {{@categories.name}}">
+      <div class="sub-item"><span class="label">Name</span>
+        <span class="input-style-valid">Jean</span>
+      </div>
+      <div class="sub-item"><span class="label">Email</span>
+        <span class="input-style-invalid">jean@doe</span>
+      </div>
+      <div class="sub-item">Password <span class="input-style-invalid">
+        <span class="black-dot"></span>
+        <span class="black-dot"></span>
+        <span class="black-dot"></span>
+        <span class="black-dot"></span>
+        <span class="black-dot"></span>
+        <span class="black-dot"></span>
+        <span class="black-dot"></span>
+        </span>
+      </div>
+  </div>
+    <div class="class">
+      <p>TEXT</p>
+    </div>
+  </div>
+
+  <div class="container-right {{@categories.name}}">
+    <div align="right">
+      <p>TEXT</p>
+    </div>
+    <div align="right" >
+      <img src="../assets/images/shirt-color.jpg" alt="Model wearing a white shirt with a black design of a light bulb">
+      <div class="sub-item-right">Unisex t-shirt Lightbulb - 35 EUR</div>
+      <div class="sub-item-right">Choose a color:</div>
+      <span class="red-dot"></span>
+      <span class="pink-dot"></span>
+      <span class="yellow-dot"></span> <span class="blue-dot"></span>
+      <span class="green-dot"></span>
+    </div>
+  </div>
+
+  <div class="container {{@categories.name}}">
+    <img src="../assets/images/pie-chart.png" alt="Pie chard divided in 6 portions, each portion has a specific color, but nothing written inside, therefore very difficult to associate the caption and the pie colors">
+    <p>TEXT</p>
+  </div>
+
+  <Resources />
 </div>

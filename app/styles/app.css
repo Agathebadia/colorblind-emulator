@@ -92,7 +92,7 @@ header {
 }
 
 
-.container p {
+.container p, .container-right p {
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -130,27 +130,84 @@ figcaption {
   background-color: #c94545;
 }
 
-.span {
+.sub-item {
   padding: 5px 8px;
+  border-radius: 3px;
+  width: fit-content;
+  margin: 18px;
+}
+
+.container-right {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  justify-content: flex-end;
+}
+
+.input-style-valid {
+  padding: 10px 96px 5px 8px;
+  border: solid 2px rgb(107, 179, 107);
   border-radius: 3px;
 }
 
-.span-error {
+.input-style-invalid {
+  padding: 10px 60px 5px 8px;
+  border: solid 2px red;
+  border-radius: 3px;
+}
+
+.red-dot {
+  height: 25px;
+  width: 25px;
   background-color: red;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.span-success {
-  background-color: lightgreen;
+.pink-dot {
+  height: 25px;
+  width: 25px;
+  background-color: palevioletred;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.span-warning {
-  background-color: orange;
+.yellow-dot {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.span-emphasize {
-  background-color: lightskyblue;
+.blue-dot {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.span-deemphasize {
-  background-color: lightgrey;
+.green-dot {
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.black-dot {
+  height: 6px;
+  width: 6px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.margin-top {
+  margin-top: 28px;
+}
+
+span.label {
+  padding-right: 23px;
 }
