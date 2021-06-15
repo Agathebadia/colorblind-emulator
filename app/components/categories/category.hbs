@@ -1,6 +1,6 @@
 <div class="category-container">
   <h2>What is <span class="capitalize">{{@categories.name}}</span>?</h2>
-  <div class="{{@categories.name}} container" style="color:red">
+  <div class="{{@categories.name}} container-right" style="color:red">
     <div>
     <blockquote>{{@categories.content.description}}</blockquote>
     <blockquote>{{@categories.content.red-vision}}</blockquote>
@@ -20,7 +20,7 @@
     <blockquote>{{@categories.content.green-vision}}</blockquote>
   </div>
 
-  <div class="{{@categories.name}} container" style="color: yellow;">
+  <div class="{{@categories.name}} container-right" style="color: yellow;">
     <blockquote>{{@categories.content.yellow-vision}}</blockquote>
     <div class="img-figcaption">
       <img class="" src="../assets/images/yellow.jpg" alt="{{@categories.content.yellow-description}}">
@@ -36,7 +36,7 @@
     <blockquote>{{@categories.content.purple-vision}}</blockquote>
   </div>
 
-  <div class="{{@categories.name}} container" style="color: blue;">
+  <div class="{{@categories.name}} container-right" style="color: blue;">
     <p>{{@categories.content.blue-vision}}</p>
     <div class="img-figcaption">
       <img class="" src="../assets/images/blue.jpg" alt="{{@categories.content.blue-description}}">
@@ -90,7 +90,7 @@
         </span>
       </div>
   </div>
-    <div class="class">
+    <div class="">
       <p>TEXT</p>
     </div>
   </div>
@@ -105,13 +105,15 @@
       <p class="sub-item-right">Choose a color:</p>
       <span class="red-dot"></span>
       <span class="pink-dot"></span>
-      <span class="yellow-dot"></span> <span class="blue-dot"></span>
+      <span class="yellow-dot"></span>
+      <span class="blue-dot"></span>
+      <span class="purple-dot"></span>
       <span class="green-dot"></span>
     </div>
   </div>
 
   <div class="container {{@categories.name}}">
-    <img src="../assets/images/pie-chart.png" alt="Pie chart with the original question: How do you spend your leisure time? The answers in the chart are divided in 5 categories: TV, Books, Games, Other and Music. Each pie as a different color, that are only easy to distinguish without colorblindess. The colors are dark blue, lighter blue, orange and a lighter tone, the last one is grey.">
+    <img class="larger-width" src="../assets/images/pie-chart.png" alt="Pie chart with the original question: How do you spend your leisure time? The answers in the chart are divided in 5 categories: TV, Books, Games, Other and Music. Each pie as a different color, that are only easy to distinguish without colorblindess. The colors are dark blue, lighter blue, orange and a lighter tone, the last one is grey.">
     <p>TEXT</p>
   </div>
 

@@ -89,10 +89,11 @@ header {
   display: flex;
   align-items: center;
   margin-bottom: 2em;
+  justify-content: flex-start;
 }
 
 
-.container p, .container-right p, .container quote {
+.container p, .container-right p, .container blockquote {
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -188,6 +189,14 @@ figcaption {
   display: inline-block;
 }
 
+.purple-dot {
+  height: 25px;
+  width: 25px;
+  background-color: purple;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 .green-dot {
   height: 25px;
   width: 25px;
@@ -210,4 +219,27 @@ figcaption {
 
 span.label {
   padding-right: 23px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
+  img {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+  }
+
+  header {
+    margin-top: 15em;
+  }
+
+  .container, .container-right {
+    display: block;
+  }
+
+  blockquote {
+    display: contents;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
 }
