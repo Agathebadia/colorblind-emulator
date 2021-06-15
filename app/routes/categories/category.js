@@ -22,7 +22,7 @@ import Route from '@ember/routing/route';
       "purplefigcaption": "Purple caption",
       "purple-description": "Photo composition of aubergines, figs, blueberries, grapes that originally are purple, but seen as greyish purple or grey with protanopia",
       "bluefigcaption": "Blue caption",
-      "blue-description": "Photo composition under the sea with a turtle, coral reef in the background. The original colors are between light blue and green, but seen as darker blue with protanopia. The green colors are seen as grey.",
+      "blue-description": "Photo composition under the sea with a turtle, coral reef in the background. The original colors are between light blue and green, but seen as darker blue with protanopia. The green colors are seen as grey."
     },
     {
       "name": "protanomaly",

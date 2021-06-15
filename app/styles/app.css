@@ -135,7 +135,11 @@ figcaption {
   padding: 5px 8px;
   border-radius: 3px;
   width: fit-content;
-  margin: 18px;
+  margin: 18px 0;
+}
+
+.smaller-width {
+  width: 75%;
 }
 
 .container-right {
@@ -211,10 +215,6 @@ figcaption {
   background-color: black;
   border-radius: 50%;
   display: inline-block;
-}
-
-.margin-top {
-  margin-top: 28px;
 }
 
 span.label {
