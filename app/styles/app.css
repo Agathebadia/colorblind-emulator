@@ -40,6 +40,10 @@
   filter: url('filters.svg#achromatomaly');
 }
 
+body {
+  margin: 0;
+}
+
 .menu-items, .images-container {
   display: flex;
   justify-content: center;
@@ -72,13 +76,24 @@
   align-items: center;
 }
 
-.category-container, header {
+.category-container, .header-table-contents, header {
   width: 85%;
   margin: auto;
 }
 
 header {
   margin-top: 6em;
+}
+
+.table-contents {
+  border: 5px solid #cc8686;
+  padding: 0 1em;
+  width: 10em;
+  margin: auto;
+}
+
+li {
+  margin: 1em 0;
 }
 
 .category-container {
@@ -88,7 +103,7 @@ header {
 .container {
   display: flex;
   align-items: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   justify-content: flex-start;
 }
 
@@ -119,6 +134,12 @@ figcaption {
   text-decoration: none;
 }
 
+a.active .menu-item {
+  background-color: #f56b39;
+  border: 2px solid black;
+}
+
+
 .media-link em {
    text-shadow: 0.05em 0 black, -0.05em 0 0 black,
     0 0.05em 0 black, 0 -0.05em 0 black,
@@ -145,7 +166,7 @@ figcaption {
 .container-right {
   display: flex;
   align-items: center;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
   justify-content: flex-end;
 }
 
@@ -227,8 +248,14 @@ span.label {
 }
 
 .background-image {
+  margin: auto;
+  color: bisque;
+  letter-spacing: 1em;
   font-size: larger;
-  width: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
   height: 4em;
   background-image: url('../assets/images/laptops.jpg');
 }
@@ -236,6 +263,43 @@ span.label {
 .low-color-contrast {
   color: bisque;
   background-color: lightgoldenrodyellow;
+}
+
+.larger-padding {
+  padding: 1em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.color-picker-img {
+  max-width: 300px;
+}
+
+.box-shadow {
+  box-shadow: 1px 11px 22px -9px #b4b4b4;
+  border-radius: 2px;
+}
+
+footer {
+  padding: 1em 0 0.5em 0;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  background-color: #ffe6dd;
+  border-radius: 3px;
+  font-size: larger;
+}
+
+a i {
+  margin: 0 1em;
+  color: black;
+}
+
+a:hover i, a:focus i {
+  color: #f56b39;
+  /* background-color: #f79673; */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {

@@ -2,14 +2,16 @@ import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { A } from '@ember/array';
 import { action } from '@ember/object';
+import { reads } from '@ember/object/computed';
 import { inject as service } from '@ember/service';
 
 
 export default class CategoriesComponent extends Component {
   @service store;
   @service router;
-
   @tracked categories = [];
+
+  activeCategory = reads('router.currentRoute.params.id')
 
   menuItems = A([
     { name: 'protanopia'},
@@ -20,7 +22,7 @@ export default class CategoriesComponent extends Component {
     { name: 'tritanomaly'},
     { name: 'achromatopsia'},
     { name: 'achromatomaly'},
-  ]);
+  ])
 
   constructor(...args) {
     super(...args);
