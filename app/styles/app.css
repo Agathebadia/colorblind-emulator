@@ -221,6 +221,23 @@ span.label {
   padding-right: 23px;
 }
 
+.no-underline {
+  text-decoration: none;
+  color: purple;
+}
+
+.background-image {
+  font-size: larger;
+  width: 15em;
+  height: 4em;
+  background-image: url('../assets/images/laptops.jpg');
+}
+
+.low-color-contrast {
+  color: bisque;
+  background-color: lightgoldenrodyellow;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
   img {
     max-width: 200px;
