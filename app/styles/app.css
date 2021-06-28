@@ -1,4 +1,3 @@
-
 /* Defining class names for each visual colorblidness type */
 .protanopia {
   -webkit-filter: url('filters.svg#protanopia');
@@ -311,6 +310,14 @@ a:hover i, a:focus i {
 
   header {
     margin-top: 15em;
+  }
+
+  header, h1, h2, h3 {
+    font-family: 'Lora', serif;
+  }
+
+  div, p, span, blockquote {
+    font-family: 'Roboto';
   }
 
   .container, .container-right {
