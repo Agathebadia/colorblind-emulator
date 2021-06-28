@@ -20,7 +20,18 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
-    }
+    },
+    contentSecurityPolicy: {
+      'default-src': ["'none'"],
+      // Allow fonts to be loaded from http://fonts.gstatic.com
+      'font-src': ["'self'", 'http://fonts.gstatic.com'],
+      'script-src': ["'self'", 'http://kit.fontawesome.com/b90c7f9273.js', 'https://kit.fontawesome.com/b90c7f9273.js'],
+      // Allow CSS loaded from https://fonts.googleapis.com
+      'style-src': ["'self'", 'https://fonts.googleapis.com'],
+    },
+    fontawesome: {
+      defaultPrefix: 'fab' // brand-icons use fab prefix
+    },
   };
 
   if (environment === 'development') {
