@@ -25,7 +25,7 @@ module.exports = function(environment) {
       'default-src': ["'none'"],
       // Allow fonts to be loaded from http://fonts.gstatic.com
       'font-src': ["'self'", 'http://fonts.gstatic.com'],
-      'script-src': ["'self'", 'http://kit.fontawesome.com/b90c7f9273.js', 'https://kit.fontawesome.com/b90c7f9273.js'],
+      // 'script-src': ["'self'"],
       // Allow CSS loaded from https://fonts.googleapis.com
       'style-src': ["'self'", 'https://fonts.googleapis.com'],
     },
