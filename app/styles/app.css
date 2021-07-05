@@ -86,7 +86,6 @@ header {
 }
 
 .table-contents {
-  border: 5px solid #cc8686;
   padding: 0 1em;
   width: 10em;
 }
@@ -102,7 +101,7 @@ li {
 .container {
   display: flex;
   align-items: center;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
   justify-content: flex-start;
 }
 
@@ -124,7 +123,7 @@ figcaption {
 .menu-item {
   padding: 1em;
   margin: 0.5em;
-  background-color: #cc8686;
+  background-color: #d6dce4;
   color: black;
   border-radius: 3px;
 }
@@ -134,7 +133,7 @@ figcaption {
 }
 
 a.active .menu-item {
-  background-color: #f56b39;
+  background-color: #e46464;
   border: 2px solid black;
 }
 
@@ -148,7 +147,7 @@ a.active .menu-item {
 }
 
 .menu-item:hover {
-  background-color: #c94545;
+  box-shadow: 1px 11px 22px -9px #6b6b6b;
 }
 
 .sub-item {
@@ -165,7 +164,7 @@ a.active .menu-item {
 .container-right {
   display: flex;
   align-items: center;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
   justify-content: flex-end;
 }
 
@@ -302,6 +301,10 @@ header, h1, h2, h3 {
 
 div, p, span, blockquote {
   font-family: 'Roboto', serif;
+}
+
+h3:first-of-type {
+  margin-top: 3em;
 }
 
 a .fa-icon {
