@@ -89,7 +89,6 @@ header {
   border: 5px solid #cc8686;
   padding: 0 1em;
   width: 10em;
-  margin: auto;
 }
 
 li {
@@ -323,11 +322,16 @@ a:hover .fa-icon, a:focus .fa-icon {
   }
 
   header {
-    margin-top: 12em;
+    margin-top: 10em;
+  }
+
+  .table-contents {
+    margin: auto;
   }
 
   .menu-item {
     padding: 0.5em;
+    font-size: smaller;
   }
 
   .container, .container-right {
@@ -342,14 +346,22 @@ a:hover .fa-icon, a:focus .fa-icon {
 
   div.author {
     font-size: smaller;
+    display: flex;
+    justify-content: center;
+    padding-left: 0.5em;
   }
 
   footer {
     padding-top: 0.5em;
+    display: block;
+    justify-content: center;
   }
 
-  footer .author {
-    padding-left: 0.5em;
+  div.social-media {
+   padding-top: 1em;
+   padding-bottom: 0;
+   display: flex;
+   justify-content: space-evenly;
   }
 
   .social-media a svg{
