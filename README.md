@@ -1,7 +1,7 @@
 # colorblind-simulator
 
 Using SVG Filter created by hail2u
-With the help of NullVoxPopuli and lean8086
+With the help of NullVoxPopuli, lean8086 and MinThaMie
 This project is a Colorblidness emulator, recreating 8 different types of colorblindness, using Ember & SVG Filter for the emulation
 
 
