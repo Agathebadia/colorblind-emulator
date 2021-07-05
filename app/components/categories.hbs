@@ -1,8 +1,8 @@
-<div class="menu-items menu-box-shadow">
+<nav class="menu-items menu-box-shadow">
   {{#each menuItems as |item|}}
     <LinkTo @route="categories.category" @model={{item.name}}>
       <div class="{{item.name}} menu-item {{if (eq @item.name @activeCategory) "active"}}">{{item.name}}
       </div>
     </LinkTo>
   {{/each}}
-</div>
+</nav>
