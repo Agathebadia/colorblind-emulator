@@ -64,6 +64,7 @@ body {
   padding-bottom: 0.5em;
 }
 
+
 .image-size {
   max-width: 300px;
   max-height: 200px;
@@ -281,6 +282,11 @@ span.label {
   border-radius: 2px;
 }
 
+.menu-box-shadow {
+  box-shadow: 1px -3px 22px -9px #b4b4b4;
+  border-radius: 2px;
+}
+
 footer {
   padding: 1em 0 0.5em 0;
   display: flex;
@@ -296,15 +302,15 @@ header, h1, h2, h3 {
 }
 
 div, p, span, blockquote {
-  font-family: 'Roboto';
+  font-family: 'Roboto', serif;
 }
 
-a i {
+a .fa-icon {
   margin: 0 1em;
   color: black;
 }
 
-a:hover i, a:focus i {
+a:hover .fa-icon, a:focus .fa-icon {
   color: #f56b39;
   /* background-color: #f79673; */
 }
@@ -317,7 +323,11 @@ a:hover i, a:focus i {
   }
 
   header {
-    margin-top: 15em;
+    margin-top: 12em;
+  }
+
+  .menu-item {
+    padding: 0.5em;
   }
 
   .container, .container-right {
@@ -330,4 +340,20 @@ a:hover i, a:focus i {
     margin-right: 1em;
   }
 
+  div.author {
+    font-size: smaller;
+  }
+
+  footer {
+    padding-top: 0.5em;
+  }
+
+  footer .author {
+    padding-left: 0.5em;
+  }
+
+  .social-media a svg{
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+  }
 }
