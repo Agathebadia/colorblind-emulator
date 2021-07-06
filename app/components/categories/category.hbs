@@ -14,7 +14,7 @@
   <div class="category-container">
     <h2 id="definitions">What is <span class="capitalize">{{@categories.name}}</span>?</h2>
     <div class="container-right" style="color:red">
-      <div>
+      <div class="quote">
       <blockquote>{{@categories.content.description}}</blockquote>
       <blockquote>{{@categories.content.red-vision}}</blockquote>
       <figcaption>{{@categories.content.author}}</figcaption>
@@ -30,11 +30,11 @@
         <img  class="box-shadow" alt="{{@categories.content.green-description}}" src="../assets/images/green.jpg">
         <figcaption >{{@categories.content.greenfigcaption}}</figcaption>
     </div>
-      <blockquote>{{@categories.content.green-vision}}</blockquote>
+      <blockquote class="quote-right with-padding">{{@categories.content.green-vision}}</blockquote>
     </div>
 
     <div class="container-right" style="color: yellow;">
-      <blockquote>{{@categories.content.yellow-vision}}</blockquote>
+      <blockquote class="quote with-padding">{{@categories.content.yellow-vision}}</blockquote>
       <div class="img-figcaption">
         <img class="box-shadow" src="../assets/images/yellow.jpg" alt="{{@categories.content.yellow-description}}">
         <figcaption>{{@categories.content.yellowfigcaption}}</figcaption>
@@ -46,11 +46,11 @@
         <img class="box-shadow" src="../assets/images/purple.jpg" alt="{{@categories.content.purple-description}}">
         <figcaption>{{@categories.content.purplefigcaption}}</figcaption>
       </div>
-      <blockquote>{{@categories.content.purple-vision}}</blockquote>
+      <blockquote class="quote-right with-padding">{{@categories.content.purple-vision}}</blockquote>
     </div>
 
     <div class="container-right" style="color: blue;">
-      <p>{{@categories.content.blue-vision}}</p>
+      <blockquote class="quote with-padding">{{@categories.content.blue-vision}}</blockquote>
       <div class="img-figcaption">
         <img class="box-shadow" src="../assets/images/blue.jpg" alt="{{@categories.content.blue-description}}">
         <figcaption>{{@categories.content.bluefigcaption}}</figcaption>
@@ -84,9 +84,9 @@
     <h2 id="color-design">Colors & Design</h2>
     <p>Emulating real life examples with colorblindness</p>
 
-    <h3>Communicating message with colours</h3>
+    <h3 class="margin-top">Communicating message with colours</h3>
     <div class="container">
-      <div class="box-shadow larger-padding">
+      <div class="larger-padding">
         <div class="sub-item"><span class="label">Name</span>
           <span class="input-style-valid">Jean</span>
         </div>
@@ -104,7 +104,7 @@
           </span>
         </div>
     </div>
-      <div class="smaller-width">
+      <div class="smaller-width quote-right">
         <p>One common mistake is to assume colors can do the job for actions such as showing valid or invalid inputs.</p> <p>In most color
         blind types, the green and red outlines are either confused together, or not matching any code color reminding of a valid or invalid element (grey, yellows. etc.)</p>
         <p>Learn more: <em><a href="https://uxplanet.org/designing-ecommerce-for-colourblind-users-1ffd648c9f91#3-avoid-communicating-a-message-on-the-basis-of-colour" target="_blank" rel="noopener">Avoid communicating a message on the basis of colour</a></em></p>
@@ -113,13 +113,13 @@
 
     <h3>Links and colors</h3>
     <div class="container-right">
-      <div align="left">
+      <div align="left" class="quote">
         <p>Using color to only differenciate a link from the text is inaccessible for colorblind users.</p>
         <p>In the following example, the chapter 1 and last paragraph are links, without underline. It's difficult, if not impossible to see the difference between the text and the links available.</p>
         <p>Learn more: <em><a href="https://axesslab.com/colorblind-accessibility-web-fail-success-cases/" target="_blank"
             rel="noopener">Render links accessible</a></em></p>
       </div>
-      <div align="justify" class="italic box-shadow">
+      <div align="justify" class="italic">
         <p><a href="" class="no-underline">Chapter 1</a></p>
         <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport,
         etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most
@@ -138,7 +138,7 @@
         <p>I'm a content creator and translator from English to German and German to English.</p>
         </div>
       </div>
-      <div class="smaller-width">
+      <div class="smaller-width quote-right">
         <p>Color contrast is sometimes set aside, in favor of a subtle color theme. If the background and text colors have a low contrast, they are illegible.</p>
         <p>In this example, deuteranopian and protanopian users are the most affected with this choice of colors. They might not even see there is content on the page.</p>
         <p>Learn more: <em><a
@@ -149,7 +149,7 @@
 
     <h3>Color pickers</h3>
     <div class="container-right">
-      <div align="left">
+      <div align="left" class="quote">
         <p>Color pickers sometimes use the original color as caption. This type of selection is only accessible for non colorblind users. Users with protanopia, deuternopia, tritanopia and achromatopsia are unable to identify the original colors shown. </p>
         <p>With protanopia and deuteranopia, reds, greens, yellows, purple are impossible to identify. Tritan users will confuse pinks, yellows, purple, also, greens and blues are altered and difficult to identify.</p>
         <p>Learn more: <em><a href="https://uxplanet.org/designing-ecommerce-for-colourblind-users-1ffd648c9f91" target="_blank" rel="noopener">Designing eCommerce for colorblind users</a></em></p>
@@ -172,15 +172,13 @@
     <h3>Pie charts and infographics</h3>
     <div class="container">
       <img class="larger-width box-shadow" src="../assets/images/pie-chart.png" alt="Pie chart with the original question: How do you spend your leisure time? The answers in the chart are divided in 5 categories: TV, Books, Games, Other and Music. Each pie as a different color, that are only easy to distinguish without colorblindess. The colors are dark blue, lighter blue, orange and a lighter tone, the last one is grey.">
-      <div align="left">
+      <div align="left" class="quote-right">
         <p>Pie charts and graphics are also easily inaccessible, due to the colors, again, being the only source of information. Different tones of blue and yellow will be seen as very similar with protanopia, deuteranopia, tritanopia. Achromatopsia can even show colors in the same shade of grey, which makes the pie chart impossible to read.</p>
         <p>Learn more: <em><a href="https://axesslab.com/colorblind-accessibility-web-fail-success-cases/" target="_blank"
             rel="noopener">How to render diagrams and infographics accessible</a></em></p>
       </div>
     </div>
-
-    <Resources />
-
   </div>
+  <Resources />
   <Footer />
 </main>

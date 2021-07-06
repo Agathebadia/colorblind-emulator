@@ -133,7 +133,8 @@ img {
 
 figcaption {
   text-align: center;
-  font-style: italic ;
+  font-style: italic;
+  padding: 0.5em;
 }
 
 .menu-item {
@@ -150,7 +151,8 @@ figcaption {
 
 a.active .menu-item {
   background-color: #e46464;
-  border: 2px solid black;
+  box-shadow: -8px 9px 2px #f9e0db
+  /* border: 2px solid black; */
 }
 
 
@@ -320,7 +322,21 @@ div, p, span, blockquote {
   font-family: 'Roboto', serif;
 }
 
-h3:first-of-type {
+.quote {
+  box-shadow: -15px 13px 6px #f9e0db;
+  border-radius: 2px;
+}
+
+.quote-right {
+  box-shadow: 10px 12px 6px #f9e0db;
+  border-radius: 2px;
+}
+
+.with-padding {
+  padding: 0.5em;
+}
+
+h3.margin-top {
   margin-top: 3em;
 }
 
@@ -332,6 +348,34 @@ a .fa-icon {
 a:hover .fa-icon, a:focus .fa-icon {
   color: #f56b39;
   /* background-color: #f79673; */
+}
+
+h2#resources {
+  padding-left: 4em;
+}
+
+.masonry-container {
+  columns: 2;
+  background-color: #FEF4F2;
+  padding-left: 6em;
+  padding-top: 2em;
+}
+
+.sub-container {
+  border-radius: 2px;
+  background: white;
+  display: inline-block;
+  margin: 0 1rem 1rem 0;
+  box-shadow: -17px 12px 3px #f9e0db;
+}
+
+.no-margin {
+  padding: 0.5em 0 0 0.5em;
+  margin-top: 0;
+}
+
+.sub-container li {
+  padding-right: 0.5em;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
@@ -358,6 +402,23 @@ a:hover .fa-icon, a:focus .fa-icon {
     display: contents;
     margin-left: 1em;
     margin-right: 1em;
+  }
+
+  .smaller-width {
+    width: 100%;
+  }
+
+  .quote-right, .quote {
+    padding: 0.5em;
+  }
+
+  h2#resources {
+    padding-left: 1em;
+  }
+
+  .masonry-container {
+    columns: 1;
+    padding-left: 0.5em;
   }
 
   div.author {
