@@ -76,19 +76,35 @@ body {
   align-items: center;
 }
 
-.category-container, .header-table-contents, header {
+.category-container {
   width: 85%;
   margin: auto;
 }
 
 header {
   margin-top: 6em;
+  justify-content: center;
 }
 
 .table-contents {
   padding: 0 1em;
   width: 10em;
+  box-shadow: -17px 12px 3px #f9e0db;
+  background-color: white;
+  border-radius: 2px;
 }
+
+header, .header-table-contents {
+  display: flex;
+  padding-left: 6em;
+}
+
+.header-table-contents {
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+  background-color: #FEF4F2;
+}
+
 
 li {
   margin: 1em 0;
@@ -297,6 +313,7 @@ footer {
 
 header, h1, h2, h3 {
   font-family: 'Lora', serif;
+  text-shadow: 3px 3px 3px #fcccba;;
 }
 
 div, p, span, blockquote {
@@ -326,10 +343,6 @@ a:hover .fa-icon, a:focus .fa-icon {
 
   header {
     margin-top: 10em;
-  }
-
-  .table-contents {
-    margin: auto;
   }
 
   .menu-item {
