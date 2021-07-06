@@ -69,6 +69,7 @@ body {
   max-width: 300px;
   max-height: 200px;
   object-fit: cover;
+  margin-right: 0.5em;
 }
 
 .container-img-left {
@@ -426,6 +427,12 @@ h2#resources {
     display: flex;
     justify-content: center;
     padding-left: 0.5em;
+  }
+
+  .larger-width {
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
   }
 
   footer {
