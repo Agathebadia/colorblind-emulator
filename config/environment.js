@@ -29,6 +29,7 @@ module.exports = function(environment) {
       'style-src-attr': ["'unsafe-inline'", "'self'"],
       // Allow CSS loaded from https://fonts.googleapis.com
       'style-src': ["'self'", 'https://fonts.googleapis.com'],
+      'manifest-src': ["'self'"],
     },
     fontawesome: {
       defaultPrefix: 'fab' // brand-icons use fab prefix

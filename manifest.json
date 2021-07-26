@@ -1,0 +1,6 @@
+{
+  "name": "Colorblindness Emulator",
+  "description": "Emulate 8 types of colorblindness!",
+  "version": "1.0",
+  "manifest_version": 3,
+}
