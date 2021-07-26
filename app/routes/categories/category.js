@@ -4,6 +4,26 @@ import Route from '@ember/routing/route';
     {
   "data": [
     {
+      "name": "no colorblindness",
+      "id": 1,
+      "description": "This emulation does not have colorblindness on. Go through the page and switch between this emulation and others to see the difference in color perception!",
+      "red-vision": "",
+      "green-vision": "Green seen through the eyes of a non colorblind user.",
+      "yellow-vision": "This emulation does not have colorblindness on. Go through the page and switch between this emulation and others to see the difference in color perception!",
+      "purple-vision": "Purple seen through the eyes of a non colorblind user.",
+      "blue-vision": "This emulation does not have colorblindness on. Go through the page and switch between this emulation and others to see the difference in color perception!",
+      "redfigcaption": "Red caption",
+      "red-description": "Here, red is seen through the lense of a non colorblind user. We can see a light red background with tomatoes, red paprika, chili, strawberries, grenada. There is no alteration of colours.",
+      "greenfigcaption": "Green caption",
+      "green-description": "",
+      "yellowfigcaption": "Yellow caption",
+      "yellow-description": "",
+      "purplefigcaption": "Purple caption",
+      "purple-description": "",
+      "bluefigcaption": "Blue caption",
+      "Blue-description": "",
+    },
+    {
       "name": "protanopia",
       "id": 2,
       "author":"Gery Coady",

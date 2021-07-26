@@ -22,6 +22,7 @@ export default class CategoriesComponent extends Component {
     { name: 'tritanomaly'},
     { name: 'achromatopsia'},
     { name: 'achromatomaly'},
+    { name: 'no colorblindness'}
   ])
 
   constructor(...args) {
