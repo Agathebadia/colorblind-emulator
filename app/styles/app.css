@@ -50,6 +50,12 @@ body {
   flex-wrap: wrap;
 }
 
+.unselected {
+  display: flex;
+  justify-content: center;
+}
+
+
 .capitalize {
   text-transform: capitalize;
 }
