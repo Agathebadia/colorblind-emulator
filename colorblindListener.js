@@ -27,6 +27,7 @@ function setSelected(value) {
   try {
     chrome.storage.local.set({ key: value }, function() {
       document.getElementById(value).checked = true;
+      document.getElementById(value).className("active");
     });
   } catch {}
 }
@@ -35,7 +36,7 @@ function injectFilter(fileName) {
   chrome.tabs.executeScript({ file: fileName });
 }
 
-document.querySelectorAll(['[id^="radio"]']).forEach(radioButton => {
+document.querySelectorAll(['[id^="button"]']).forEach(radioButton => {
   const filter = radioButton.parentElement.id.replace("option-", "");
   radioButton.addEventListener("click", function() {
     // page-specific filters

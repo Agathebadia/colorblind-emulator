@@ -11,8 +11,8 @@ filterID.id = "filterID471924";
 filterID.setAttribute('style', 'height: 0; padding: 0; margin: 0; line-height: 0;');
 document.body.appendChild(filterID);
 
-filterID.innerHTML = '<svg id="colorblind-filters" style="display: none"> <defs> <filter id="protanopia"> <feColorMatrix type="matrix" values="0.567, 0.433, 0, 0, 0,0.558, 0.442, 0,0, 0,0, 0.242, 0.758, 0, 0,0,0,0,1, 0" in="SourceGraphic" /> </filter> </defs> </svg>';
-stylingID.innerHTML = 'html{-webkit-filter:url(#protanopia);-moz-filter:(#protanopia);-ms-filter:(#protanopia);-o-filter:(#protanopia);filter:(#protanopia);}'
+filterID.innerHTML = '<svg id="colorblind-filters" style="display: none"> <defs> <filter id="protanomaly"> <feColorMatrix type="matrix" values="0.299, 0.587, 0.114, 0, 0,0.299, 0.587, 0.114, 0, 0,0.299, 0.587, 0.114, 0, 0,0,0,0,1, 0" in="SourceGraphic" /> </filter> </defs> </svg>';
+stylingID.innerHTML = 'html{-webkit-filter:url(#protanomaly);-moz-filter:(#protanomaly);-ms-filter:(#protanomaly);-o-filter:(#protanomaly);filter:(#protanomaly);}'
 setTimeout(function() {
     window.scrollBy(1, 1);
     window.scrollBy(-1, -1);
