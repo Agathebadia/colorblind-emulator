@@ -16,12 +16,13 @@ export default class CategoriesRoute extends Route {
   model() {
     let noColorBlindness = new Category ({
       name: 'No colorblindness',
-      description: 'This is the view without color alteration.',
+      description: 'This is the view without color alteration.'
     });
 
     let protanopia = new Category ({
       name: 'protanopia',
       description: 'Insert description',
+      hover: 'Red/green colorblindness',
     });
 
     let protanomaly = new Category ({
