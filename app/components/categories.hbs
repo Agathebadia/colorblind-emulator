@@ -1,8 +1,8 @@
 <nav class="menu-items menu-box-shadow">
   {{#each menuItems as |item|}}
     <LinkTo @route="categories.category" @model={{item.name}}>
-      <div class="{{item.name}} menu-item {{if (eq @item.name @activeCategory) "active"}}">{{item.name}}
-        <EmberTooltip class="" @side="bottom">
+      <div role="button" class="{{item.name}} menu-item {{if (eq @item.name @activeCategory) "active"}}">{{item.name}}
+        <EmberTooltip @side="bottom">
           {{item.hover}}
         </EmberTooltip>
       </div>

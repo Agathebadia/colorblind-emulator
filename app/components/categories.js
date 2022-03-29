@@ -14,14 +14,14 @@ export default class CategoriesComponent extends Component {
   activeCategory = reads('router.currentRoute.params.id')
 
   menuItems = A([
-    { name: 'protanopia', hover: 'Red/Green colorblindness'},
-    { name: 'protanomaly', hover: 'Red/Green, milder type'},
-    { name: 'deuteranopia', hover: 'Red/Green colorblindness'},
-    { name: 'deuteranomaly', hover: 'Red/Green, milder type'},
-    { name: 'tritanopia', hover: 'Blue/yellow colorblindness'},
-    { name: 'tritanomaly', hover: 'Blue/yellow, milder type'},
+    { name: 'protanopia', hover: 'Red colorblindness'},
+    { name: 'protanomaly', hover: 'Partial red colorblindness'},
+    { name: 'deuteranopia', hover: 'Green colorblindness'},
+    { name: 'deuteranomaly', hover: 'Partial green colorblindness'},
+    { name: 'tritanopia', hover: 'Blue colorblindness'},
+    { name: 'tritanomaly', hover: 'Partial blue colorblindness'},
     { name: 'achromatopsia', hover: 'No color'},
-    { name: 'achromatomaly', hover: 'Dull color vision'},
+    { name: 'achromatomaly', hover: 'Partial colorblindness'},
     { name: 'no colorblindness', hover: 'Vision without colorblindness'}
   ])
 
