@@ -4,6 +4,7 @@ Using SVG Filter created by hail2u
 With the help of NullVoxPopuli and lean8086
 This project is a Colorblidness emulator, recreating 8 different types of colorblindness, using Ember & SVG Filter for the emulation
 
+Check out my talk at EmberConf, presenting the application! [Accessibility & Ember: Learning about Colorblidness](https://noti.st/agathebadia/DTySgu/accessibility-ember-learning-about-colorblindness#sKc0uBX)
 
 ## Ongoing
 * Create content to describe each colorblindness & styling
